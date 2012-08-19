@@ -11,5 +11,8 @@
     "testname": "fields-version-dot-dfsg",
     "upstream": [
         "upstream"
+    ],
+    "checkers": [
+        "changes-lintian"
     ]
 }

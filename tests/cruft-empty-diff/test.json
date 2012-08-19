@@ -1,0 +1,18 @@
+{
+    "builders": [
+        "deb-source-builder"
+    ],
+    "checkers": [
+        "changes-lintian"
+    ],
+    "debian": [
+        "generic"
+    ],
+    "description": "Test an empty Debian diff",
+    "native": false,
+    "template": "generic",
+    "testname": "cruft-empty-diff",
+    "upstream": [
+        "generic"
+    ]
+}

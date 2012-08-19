@@ -1,4 +1,7 @@
 {
+    "builders": [
+        "deb-source-builder"
+    ],
     "debian": [
         "debian"
     ],

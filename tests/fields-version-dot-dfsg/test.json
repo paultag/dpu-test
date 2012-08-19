@@ -1,0 +1,12 @@
+{
+    "debian": [
+        "debian"
+    ],
+    "description": "Use of \".dfsg\"",
+    "native": true,
+    "template": "generic",
+    "testname": "fields-version-dot-dfsg",
+    "upstream": [
+        "upstream"
+    ]
+}

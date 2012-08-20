@@ -2,17 +2,16 @@
     "builders": [
         "deb-source-builder"
     ],
-    "debian": [
-        "debian"
+    "checkers": [
+        "changes-lintian"
     ],
     "description": "Use of \".dfsg\"",
     "native": true,
-    "template": "generic",
-    "testname": "fields-version-dot-dfsg",
-    "upstream": [
-        "upstream"
+    "templates": [
+        "upstream",
+        "shim:upstream",
+        "generic",
+        "debian"
     ],
-    "checkers": [
-        "changes-lintian"
-    ]
+    "testname": "fields-version-dot-dfsg"
 }

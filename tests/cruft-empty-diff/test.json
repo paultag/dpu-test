@@ -5,14 +5,12 @@
     "checkers": [
         "changes-lintian"
     ],
-    "debian": [
-        "generic"
-    ],
     "description": "Test an empty Debian diff",
     "native": false,
-    "template": "generic",
-    "testname": "cruft-empty-diff",
-    "upstream": [
+    "templates": [
+        "generic",
+        "shim:upstream",
         "generic"
-    ]
+    ],
+    "testname": "cruft-empty-diff"
 }

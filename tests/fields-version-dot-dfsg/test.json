@@ -6,7 +6,7 @@
         "changes-lintian"
     ],
     "description": "Use of \".dfsg\"",
-    "native": true,
+    "native": false,
     "templates": [
         "upstream",
         "shim:upstream",

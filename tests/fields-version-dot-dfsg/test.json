@@ -3,15 +3,19 @@
         "source"
     ],
     "checkers": [
-        "lintian"
+        "lintian-pedantic"
     ],
     "description": "Use of \".dfsg\"",
     "native": false,
     "templates": [
-        "upstream",
+        "hello",
         "shim:upstream",
-        "generic",
-        "debian"
+        "generic"
     ],
-    "testname": "fields-version-dot-dfsg"
+    "testname": "fields-version-dot-dfsg",
+    "version": {
+        "debian": "1",
+        "epoch": null,
+        "upstream": "1.0.dfsg1"
+    }
 }

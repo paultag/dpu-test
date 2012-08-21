@@ -1,11 +1,4 @@
 {
-    "binaries": [
-        {
-            "architecture": "any",
-            "name": "pkgfoo",
-            "synopsis": "Hello, World!"
-        }
-    ],
     "builders": [
         "binary"
     ],

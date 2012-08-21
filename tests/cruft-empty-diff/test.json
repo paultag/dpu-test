@@ -1,11 +1,14 @@
 {
     "builders": [
-        "binary"
+        "source"
     ],
     "checkers": [
-        "lintian"
+        "lintian-pedantic"
     ],
     "description": "Test an empty Debian diff",
+    "format": {
+        "version": "1.0"
+    },
     "native": false,
     "templates": [
         "generic",

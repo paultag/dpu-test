@@ -11,7 +11,6 @@
         "compat": "9",
         "version": "(>= 9)"
     },
-    "foo": "foo",
     "format": {
         "variant": "quilt",
         "version": "3.0"

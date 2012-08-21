@@ -1,0 +1,23 @@
+{
+    "binaries": [
+        {
+            "architecture": "any",
+            "name": "pkgfoo",
+            "synopsis": "Hello, World!"
+        }
+    ],
+    "builders": [
+        "binary"
+    ],
+    "checkers": [
+        "lintian"
+    ],
+    "description": "Test an empty Debian diff",
+    "native": false,
+    "templates": [
+        "hello",
+        "shim:upstream",
+        "generic"
+    ],
+    "testname": "hello-has-no-manpage"
+}

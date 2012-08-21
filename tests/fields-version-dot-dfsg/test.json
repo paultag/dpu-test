@@ -10,7 +10,8 @@
     "templates": [
         "hello",
         "shim:upstream",
-        "generic"
+        "generic",
+        "watch-mangle"
     ],
     "testname": "fields-version-dot-dfsg",
     "version": {

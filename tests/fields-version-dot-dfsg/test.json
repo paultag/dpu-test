@@ -1,9 +1,9 @@
 {
     "builders": [
-        "deb-source-builder"
+        "source"
     ],
     "checkers": [
-        "changes-lintian"
+        "lintian"
     ],
     "description": "Use of \".dfsg\"",
     "native": false,

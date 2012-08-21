@@ -1,9 +1,9 @@
 {
     "builders": [
-        "deb-source-builder"
+        "binary"
     ],
     "checkers": [
-        "changes-lintian"
+        "lintian"
     ],
     "description": "Test an empty Debian diff",
     "native": false,

@@ -5,6 +5,7 @@
     "checkers": [
         "lintian-pedantic"
     ],
+    "todo": "Not implemented yet",
     "description": "Test an empty Debian diff",
     "format": {
         "version": "1.0"

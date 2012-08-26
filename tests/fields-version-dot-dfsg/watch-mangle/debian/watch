@@ -1,3 +1,0 @@
-version=2
-opts=dversionmangle=s/\.dfsg// \
-https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-(.*)\.tar\.gz

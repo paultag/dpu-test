@@ -1,0 +1,20 @@
+{
+    "builders": [
+        "binary"
+    ],
+    "checkers": [
+        "lintian-pedantic"
+    ],
+    "templates": [
+        "hello",
+        "shim:upstream",
+        "generic",
+        "generic-non-native"
+    ],
+    "version": {
+        "debian": "1",
+        "epoch": "1",
+        "upstream": "1.0"
+    },
+    "testname": "basic-non-native-with-epoch"
+}

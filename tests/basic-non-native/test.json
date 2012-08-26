@@ -1,0 +1,15 @@
+{
+    "builders": [
+        "binary"
+    ],
+    "checkers": [
+        "lintian-pedantic"
+    ],
+    "templates": [
+        "hello",
+        "shim:upstream",
+        "generic",
+        "generic-non-native"
+    ],
+    "testname": "basic-non-native"
+}

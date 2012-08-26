@@ -1,0 +1,12 @@
+{
+    "builders": [
+        "binary"
+    ],
+    "checkers": [
+        "lintian-pedantic"
+    ],
+    "templates": [
+        "generic"
+    ],
+    "testname": "basic"
+}

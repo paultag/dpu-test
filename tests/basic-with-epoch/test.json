@@ -1,0 +1,17 @@
+{
+    "builders": [
+        "binary"
+    ],
+    "checkers": [
+        "lintian-pedantic"
+    ],
+    "templates": [
+        "generic"
+    ],
+    "testname": "basic",
+    "version": {
+        "debian": null,
+        "epoch": "1",
+        "upstream": "1.0"
+    }
+}

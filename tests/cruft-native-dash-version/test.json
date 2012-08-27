@@ -1,0 +1,17 @@
+{
+    "builders": [
+        "binary"
+    ],
+    "checkers": [
+        "lintian"
+    ],
+    "templates": [
+        "generic"
+    ],
+    "testname": "cruft-native-dash-version",
+    "version": {
+        "debian": "1",
+        "epoch": null,
+        "upstream": "1.0"
+    }
+}

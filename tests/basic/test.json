@@ -8,5 +8,6 @@
     "templates": [
         "generic"
     ],
-    "testname": "basic"
+    "testname": "basic",
+    "checks": []
 }

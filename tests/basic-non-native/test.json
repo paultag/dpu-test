@@ -11,5 +11,6 @@
         "generic",
         "generic-non-native"
     ],
-    "testname": "basic-non-native"
+    "testname": "basic-non-native",
+    "checks": []
 }

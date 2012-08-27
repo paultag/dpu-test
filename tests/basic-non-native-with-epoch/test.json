@@ -11,10 +11,11 @@
         "generic",
         "generic-non-native"
     ],
+    "testname": "basic-non-native-with-epoch",
     "version": {
         "debian": "1",
         "epoch": "1",
         "upstream": "1.0"
     },
-    "testname": "basic-non-native-with-epoch"
+    "checks": []
 }

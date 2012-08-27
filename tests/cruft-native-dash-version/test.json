@@ -13,5 +13,8 @@
         "debian": "1",
         "epoch": null,
         "upstream": "1.0"
-    }
+    },
+    "checks": [
+        "native-package-with-dash-version"
+    ]
 }

@@ -13,5 +13,6 @@
         "debian": null,
         "epoch": "1",
         "upstream": "1.0"
-    }
+    },
+    "checks": []
 }
